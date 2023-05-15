@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(231, 189, 72);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.main-container {
+  /* border: 2px solid white; */
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.draggable-elements,
+.droppable-elements {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 24px;
+  gap: 10px;
+  min-height: 230px;
+}
+
+.names {
+  border: 3px dashed brown;
+  min-width: 100px;
+  padding: 0 10px;
+  height: 100px;
+  display: grid;
+  place-content: center;
+}
+
+.image {
+  width: 120px;
+}
+
+.wrong,
+.win {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
